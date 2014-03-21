@@ -1,0 +1,16 @@
+{
+  "name": "kandao",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.1.0",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.11.0",
+    "es5-shim": ">=2.3.0",
+    "dou": "git://github.com/heartyoh/dou",
+    "bwip": "git://github.com/heartyoh/bwip",
+    "KineticJS": "git://github.com/ericdrowell/KineticJS.git",
+    "infopik": "git://github.com/heartyoh/infopik.git",
+    "r.js": "~2.1.11"
+  },
+  "devDependencies": {}
+}
