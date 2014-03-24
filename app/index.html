@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>kandao</title>
+        <title>看到</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
@@ -28,14 +28,14 @@
         <![endif]-->
 
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="header">
                 <ul class="nav nav-pills pull-right">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <h3 class="text-muted">kandao</h3>
+                <h3 class="text-muted">看到</h3>
             </div>
 
             <!--
@@ -46,7 +46,23 @@
             </div>
             -->
 
-            <div id="painter" class="painter">
+            <div class="row">
+                <div class="col-md-1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><a id="btn_select" class="btn btn-xs btn-primary btn-block" href="#">Select</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><a id="btn_move" class="btn btn-xs btn-default btn-block" href="#">Move</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="painter" class="painter col-md-10">
+                </div>
+                <div class="col-md-1">
+                    <p><a class="btn btn-xs btn-primary btn-block" href="#">Select</a></p>
+                    <p><a class="btn btn-xs btn-default btn-block" href="#">Move</a></p>
+                </div>
             </div>
 
             <div class="row marketing">
@@ -76,13 +92,12 @@
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
-        <script src="bower_components/es5-shim/es5-shim.js"></script>
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap.js"></script>
         <script src="bower_components/dou/dou.js"></script>
         <script src="bower_components/bwip/bwip-min.js"></script>
         <script src="bower_components/KineticJS/kinetic.min.js"></script>
-        <script src="bower_components/infopik/index.js"></script>
+        <script src="bower_components/infopik/infopik.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
