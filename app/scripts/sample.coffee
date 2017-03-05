@@ -86,6 +86,12 @@
                 y: 180
                 draggable: true
         ,
+            type: 'circle'
+            attrs:
+                x: 570
+                y: 170
+                draggable: true
+        ,
             type: 'image'
             attrs:
                 x: 10

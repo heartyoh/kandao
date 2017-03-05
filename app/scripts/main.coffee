@@ -11,14 +11,19 @@ $(window).resize ->
     app.setSize $('#painter').width(), $('#painter').height()
 
 $('#btn_select').click ->
-    app.setEditMode('SELECT')
+    app.hideMinimap()
     $(this).addClass('btn-primary')
     $('#btn_move').removeClass('btn-primary')
 
 $('#btn_move').click ->
-    app.setEditMode('MOVE')
+    app.showMinimap()
     $(this).addClass('btn-primary')
     $('#btn_select').removeClass('btn-primary')
+
+$('#btn_moveto_origin').click ->
+    app.offset
+        x: -20
+        y: -20
 
 $('#btn_move_forward').click ->
     app.moveForward()
